@@ -50,7 +50,7 @@ font-weight: 700;
 
 .navigat:hover,
 .navigat:active {
-  color: #4D5AE5
+  color: #404bbf
 }
 
 /* Adress changes */
@@ -117,7 +117,7 @@ background-color:#404BBF;
 
 /* Main section 3 - our team */
 .our-team {
-background-color:#FFFFFF;
+background-color:#F4F4FD;
 
 }
 .h-two-team {
@@ -126,6 +126,7 @@ background-color:#FFFFFF;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  background-color: #FFFFFF;
 }
 .member {
   font-size: 20px;
@@ -146,13 +147,14 @@ background-color:#FFFFFF;
 /* Main section 4 - Our Portfolio */
 /* Changes h3 */
 .portfolio-h-three {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2E2F42;
   text-align: center;
   text-transform: capitalize;
+  line-height: 1.2;
 }
 /* Changes p */
 .our-portfolio-p {
@@ -169,6 +171,7 @@ font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 /* Footer */
 footer {
@@ -184,6 +187,8 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:#4d5ae5;
+  font-family: "Raleway",
+    sans-serif;
 }
 /* paragraph changes */
 .footer-p {
