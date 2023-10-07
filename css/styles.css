@@ -49,20 +49,17 @@ font-weight: 700;
 }
 
 .navigat:hover,
-.navigat:active {
+.navigat:focus{
   color: #404bbf
 }
-
 /* Adress changes */
 .address-info {
   color: #434455;
- font-style: normal;
-
+  font-style: normal;
 }
 
-.address-info:hover,
-.address-info {
-  color: #404bbf
+.address-info:hover {
+  color: #404bbf;
 }
 
 
@@ -73,7 +70,7 @@ font-weight: 700;
   background-color: #2E2F42;
 }
 /* changing h1 */
-.hero-h1 {
+.hero-h-one {
 text-align: center;
   font-size: 56px;
   line-height: 1.07;
@@ -93,7 +90,9 @@ text-align: center;
 }
 
 /* when clicking button, change colors */
-.order-service:focus {
+.order-service:focus,
+.oder-service:hover
+ {
 background-color:#404BBF;
 }
 
@@ -121,6 +120,7 @@ background-color:#F4F4FD;
 
 }
 .h-two-team {
+  color: #2E2F42;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -145,17 +145,27 @@ background-color:#F4F4FD;
 
 
 /* Main section 4 - Our Portfolio */
-/* Changes h3 */
+.portfolio-h-two {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  line-height: 1.11
+
+}
+
 .portfolio-h-three {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2E2F42;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.2;
 }
+
 /* Changes p */
 .our-portfolio-p {
   font-size: 16px;
@@ -164,15 +174,7 @@ background-color:#F4F4FD;
     letter-spacing: 0.32px;
     color: #434455;
 }
-/* changes h2 */
-.portfolio-h-two {
-font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+
 /* Footer */
 footer {
   background-color: #2E2F42;
