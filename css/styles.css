@@ -58,7 +58,7 @@ font-weight: 700;
   font-style: normal;
 }
 
-.address-info:hover
+.address-info:hover,
 .address-info:focus {
   color: #404bbf;
 }
@@ -127,17 +127,16 @@ background-color:#F4F4FD;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  background-color: #FFFFFF;
+  
 }
-.listmembers {
-  background-color:#FFFFFF ;
-}
+
 .member {
   font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #2E2F42;
+    background-color: #FFFFFF;
 }
 .job {
   font-size: 16px;
