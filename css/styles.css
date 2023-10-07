@@ -50,7 +50,7 @@ font-weight: 700;
 
 .navigat:hover,
 .navigat:focus {
-  background-color:#404BBF;
+  color:#404BBF;
 }
 /* Adress changes */
 .address-info {
@@ -58,7 +58,8 @@ font-weight: 700;
   font-style: normal;
 }
 
-.address-info:hover {
+.address-info:hover
+.address-info:focus {
   color: #404bbf;
 }
 
@@ -91,7 +92,7 @@ text-align: center;
 
 /* when clicking button, change colors */
 .order-service:focus,
-.oder-service:hover
+.order-service:hover
  {
 background-color:#404BBF;
 }
@@ -116,7 +117,7 @@ background-color:#404BBF;
 
 /* Main section 3 - our team */
 .our-team {
-background-color:#FFFFFF;
+background-color:#F4F4FD;
 
 }
 .h-two-team {
@@ -127,6 +128,9 @@ background-color:#FFFFFF;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   background-color: #FFFFFF;
+}
+.listmembers {
+  background-color:#FFFFFF ;
 }
 .member {
   font-size: 20px;
