@@ -1,0 +1,195 @@
+/* concerning everything */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+header {
+  background-color: #FFF;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+address {
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  font-weight: 400;
+}
+/* header */
+/* conserting both start and end labels */
+.webstudio {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+font-weight: 700;
+}
+
+.studio {
+  color: #2e2f42;
+}
+
+/* navigation changes */
+.navigat {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #2E2F42;
+  font-weight: 500;
+}
+
+.navigat:hover,
+.navigat:active {
+  color: #4D5AE5
+}
+
+/* Adress changes */
+.address-info {
+  color: #434455;
+ font-style: normal;
+
+}
+
+.address-info:hover,
+.address-info {
+  color: #404bbf
+}
+
+
+
+/* main section 1, hero */
+
+.hero {
+  background-color: #2E2F42;
+}
+/* changing h1 */
+.hero-h1 {
+text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+/* button */
+.order-service {
+  background-color: #4D5AE5;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/* when clicking button, change colors */
+.order-service:focus {
+background-color:#404BBF;
+}
+
+
+/* Main section 2 - benefits */
+.h-three-benefits {
+  font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color:#2E2F42;
+}
+.p-benefits {
+  font-size: 16px;
+
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+
+/* Main section 3 - our team */
+.our-team {
+background-color:#FFFFFF;
+
+}
+.h-two-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.member {
+  font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+}
+.job {
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+
+
+/* Main section 4 - Our Portfolio */
+/* Changes h3 */
+.portfolio-h-three {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* Changes p */
+.our-portfolio-p {
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+/* changes h2 */
+.portfolio-h-two {
+font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+/* Footer */
+footer {
+  background-color: #2E2F42;
+}
+.studio-two {
+ color:#f4f4fd;
+}
+.webstudio-two {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:#4d5ae5;
+}
+/* paragraph changes */
+.footer-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: #F4F4FD;
+}
